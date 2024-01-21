@@ -1,0 +1,14 @@
+server:
+  port: 9091
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/flightDb
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
